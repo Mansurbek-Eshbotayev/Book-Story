@@ -1,0 +1,49 @@
+
+
+.slick-dots{
+  bottom: 65px !important;
+  left: 85px !important;
+  text-align: start !important;
+}
+
+.slick-dots li{
+  width: 60px !important;
+}
+
+.slick-dots li button{
+  width: 60px !important;
+  height: 3px !important;
+  padding: 0px !important;
+}
+
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 57px !important;
+    height: 3px !important;
+
+    content: '';
+    text-align: center;
+
+    opacity: .25;
+    background-color: #ffffffad;
+    border-radius: 10px;
+
+}
+
+.slick-dots li.slick-active button:before
+{
+  background-color: #ffffffd8;
+}
+
+.slick-arrow, .slick-prev{
+  display: none !important;
+}
+
