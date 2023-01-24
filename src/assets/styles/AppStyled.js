@@ -2,12 +2,12 @@ import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 
 export const ContainerStyle = styled.div`
-width: 100%;
-max-width: 1300px;
-margin: 0 auto;
-padding: 0 20px;
-position: relative;
-`
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+`;
 
 export const GlobalStyles = createGlobalStyle`
 @font-face {
@@ -36,7 +36,7 @@ body {
 	font-family:'Aclonica' , 'Arial', 'sans-serif';
 	margin: 0;
 	padding: 0;
-	background-color: ${({theme}) => (theme === "false"? '#191919' : "#FFFFFF")};
+	background-color: ${({ theme }) => (theme === "false" ? "#191919" : "#FFFFFF")};
 }
 
 .unActive{
@@ -138,5 +138,9 @@ hr{
 	margin: 0;
 }
 
+.slick-prev:before {
+    content: '←' !important;
+}
 
-`
+
+`;
